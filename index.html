@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Been together</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body
+    class="bg-gradient-to-b h-screen from-white to-pink-200 flex items-center justify-center"
+  >
+    <div class="w-1/2 flex flex-col items-center">
+      <h1 class="text-4xl text-pink-500 font-medium uppercase text-center">
+        Love Days
+      </h1>
+      <div class="mt-10 text-center">
+        <p id="day-count">0 DAYS</p>
+        <p class="mt-2 text-5xl font-medium" id="count">00:00:00</p>
+      </div>
+      <div class="flex mt-20 justify-between items-center w-full">
+        <div class="flex flex-col items-center">
+          <div class="w-40 h-40 border rounded-full border-black"></div>
+          <p class="mt-2">Đỗ Thị Mai</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/assets/images/heart.png" alt="heart" class="w-10 h-10" />
+          <p class="text-pink-500 text-md mt-4" id="date"></p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="w-40 h-40 border rounded-full border-black"></div>
+          <p class="mt-2">Nguyễn Thoại</p>
+        </div>
+      </div>
+      <audio controls autoplay loop class="mt-20">
+        <source src="/assets/audios/music.mp3" type="audio/mp3" />
+      </audio>
+      <p class="mt-10 text-center">Mãi bên nhau bạn nhớ 💋</p>
+    </div>
+  </body>
+</html>
